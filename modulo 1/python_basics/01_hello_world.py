@@ -13,5 +13,3 @@ print(nombre, edad, telefono, sep=". ")
 print( nombre, end=" | ")
 print(edad, end=" | ")
 print(telefono, end=" | ")
-
-printe 
