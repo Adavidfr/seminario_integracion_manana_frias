@@ -1,0 +1,13 @@
+type UbicacionOficina = [number, number];           
+type NivelDesempeno = [number, number, number];    
+type HorarioCapacitacion = [string, number];              
+const posicionOficina: UbicacionOficina = [-0.180653, -78.467834];
+const desempenoEquipo: NivelDesempeno = [10, 40, 50];            
+const horarioDepto: HorarioCapacitacion = ["Recursos Humanos", 15];
+const [latitudTupla, longitudTupla] = posicionOficina;
+const [bajoTupla, medioTupla, altoTupla] = desempenoEquipo;
+const [deptoTupla, horas_capacitacion] = horarioDepto;
+console.log(`Posición: lat=${latitudTupla}, lon=${longitudTupla}`);         
+console.log(`Desempeño: bajo=${bajoTupla}%, medio=${medioTupla}%, alto=${altoTupla}%`); 
+type TurnoLaboral = [inicioHora: number, finHora: number];
+const turnoManana: TurnoLaboral = [8, 17];              
